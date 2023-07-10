@@ -1,0 +1,26 @@
+{
+  "name": "googlereact",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "g-login": "clasp login",
+    "g-logout": "clasp logout",
+    "g-create": "clasp create --title ReactGoogleProyect --rootDir apps-script",
+    "g-push": "clasp push --watch",
+    "g-pull": "clasp pull",
+    "start": "parcel src/index.html --dist-dir ./apps-script",
+    "build": "parcel build src/index.html --dist-dir ./apps-script"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/google-apps-script": "^1.0.64",
+    "parcel": "^2.9.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
